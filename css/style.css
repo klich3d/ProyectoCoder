@@ -237,6 +237,28 @@ footer div a{
     color: rgba(7,62,87,0.92);
 }
 
+.listaimpresion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    margin-bottom: 140px;
+}
+
+.listaimpresion div h3{
+    color: white;
+    background-color: rgba(7,62,87,0.92);
+    padding: 5px;
+    width: 100%;
+    margin: 0%;
+    margin-bottom: 50px;
+}
+
+.listaimpresion div ul li{
+    font-size: 30px;
+}
+
 @media screen and (max-width:1300px) {
     header {
         flex-direction: column;
@@ -259,8 +281,9 @@ footer div a{
         font-size: 45px;
     }
 
-    main section img {
+    .img {
         display: none;
+        
     }
 
     main section div{
@@ -299,6 +322,16 @@ footer div a{
     .grid-galeria h3{
         font-size: 25px;
     }
+
+    .listaimpresion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 50px;
+        margin-bottom: 140px;
+    }
+
     footer{
         padding: 20px;
         margin-top: 50px;
