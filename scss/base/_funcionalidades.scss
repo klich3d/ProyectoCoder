@@ -1,1 +1,10 @@
-$color-1: rgb(7, 62, 87);
+$color-1: rgb(59, 129, 123);
+$color-2: white;
+
+@mixin flex ($flex,$justify,$aling){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+}
+
+
