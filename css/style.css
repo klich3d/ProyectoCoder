@@ -35,7 +35,7 @@ header nav ul li a{
 
 }
 
-.Logo{
+.logo{
     text-decoration: none;
     color: white;
     font-size: 40px;
@@ -99,14 +99,14 @@ h4{
 
 }
 
-main section{
+.principal section{
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 }
 
-main section div{
+.principal section div{
     width: 50%;
 
 }
@@ -273,7 +273,7 @@ footer div a{
         margin-bottom: 20px;
     }
 
-    .Logo{
+    .logo{
         font-size: 30px;
     }
 
@@ -352,7 +352,7 @@ footer div a{
         margin-bottom: 20px;
     }
 
-    .Logo{
+    .logo{
         font-size: 25px;
     }
 
@@ -417,7 +417,7 @@ footer div a{
         margin-bottom: 20px;
     }
 
-    .Logo{
+    .logo{
         font-size: 17px;
     }
 
