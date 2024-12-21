@@ -1,7 +1,7 @@
 footer{
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: nth($font-size, 5);
     background-color: $color-1;
     padding: 40px;
     margin-top: 50px;

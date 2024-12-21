@@ -1,10 +1,26 @@
+//Variable
+
 $color-1: rgb(59, 129, 123);
 $color-2: white;
+
+//MIXIN
 
 @mixin flex ($flex,$justify,$aling){
     display: $flex;
     justify-content: $justify;
     align-items: $aling;
 }
+
+// LISTA
+
+$font-size: 12px, 15px, 17px, 20px, 25px, 30px, 35px, 40px, 45px, 50px, 70px, 90px, 120px;
+
+// EXTEND
+
+%letras{
+        font-weight: 400;
+        font-style: normal;
+}
+
 
 

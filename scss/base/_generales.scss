@@ -2,28 +2,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Cherry+Bomb+One&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Prociono&display=swap');@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Changa+One:ital@0;1&family=Cherry+Bomb+One&family=Dosis:wght@200..800&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Prociono&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 
 }
 /*! BOOTSTRAP*/
 
 .formulario{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 50px;
-    margin-bottom: 140px;
-            div{
-                padding: 15px;
-                width: 600px;
-                label{
-                    font-family: "Barlow Condensed", sans-serif;
-                    font-weight: 400;
-                    font-style: normal;
-                    font-size: 30px;
-                    color: rgba(7,62,87,0.92);
-                    }
-            }
-    }
+                p{
+                font-size: nth($font-size, 6);
+                margin-left: 150px;
+                margin: 50px;
+                color: $color-1;
+                font-family: "Barlow Condensed", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                }
+                h1, h2{
+                        font-size: nth($font-size, 9);
+                margin-left: 150px;
+                margin: 50px;
+                color: $color-1;
+                font-family: "Barlow Condensed", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                text-align: center;
+                }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 50px;
+        margin-bottom: 140px;
+                div{
+                        padding: 15px;
+                        width: 600px;
+                        label{
+                        font-family: "Barlow Condensed", sans-serif;
+                        @extend %letras;
+                        font-size: nth($font-size, 6);
+                        color: rgba(7,62,87,0.92);
+                        }
+                }
+        }

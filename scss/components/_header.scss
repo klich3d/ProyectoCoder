@@ -1,11 +1,10 @@
 header{
-    h2{
+    .logo{
         text-decoration: none;
         color: $color-2;
-        font-size: 70px;
+        font-size: nth($font-size, 9);
         font-family: "Prociono", serif;
-        font-weight: 400;
-        font-style: normal;
+        @extend %letras;
     }
     @include flex (flex,space-between,center);
     position: sticky;
@@ -13,15 +12,17 @@ header{
     top: 0;
     z-index: 1;
     width: 100%;
-    height: 140px;
+    height: 80px;
     a{
         text-decoration: none;
         color: $color-2;
-        font-size: 40px;
+        font-size: nth($font-size, 5);
         font-family: "Prociono", serif;
-        font-weight: 400;
-        font-style: normal;
+        @extend %letras;
         margin-left: 10px;
+        &:hover{
+                color: black;
+        }
     }
     nav{
         ul{
@@ -32,7 +33,7 @@ header{
                     margin: 15px 10px 15px 10px;
                     text-decoration: none;
                     color: $color-2;
-                    font-size: 30px;
+                    font-size:nth($font-size, 4);
                 }
             }
         }
